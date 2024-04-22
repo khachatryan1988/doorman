@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="shortcut icon" href="https://preview.colorlib.com/theme/taxi/img/fav.png">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}">
 
     <meta name="author" content="colorlib">
 

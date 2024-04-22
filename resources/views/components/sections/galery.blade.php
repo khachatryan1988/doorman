@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-lg-4 single-gallery">
                 <a href="{{ asset('images/92d99760-14d2-45be-b2d9-8c9a81fa4c11.jpg') }}" class="img-gal"><img class="img-fluid" src="{{ asset('images/92d99760-14d2-45be-b2d9-8c9a81fa4c11.jpg') }}" alt=""></a>
-                <a href="{{ asset('images/Image 2023-12-04 at 10.25.33.jpg') }}" class="img-gal"><img class="img-fluid" src="{{ asset('images/Image 2023-12-04 at 10.25.33.jpg') }}" alt=""></a>
+                <a href="{{ asset('images/rtf.jpg') }}" class="img-gal"><img class="img-fluid" src="{{ asset('images/rtf.jpg') }}" alt=""></a>
             </div>
             <div class="col-lg-4 single-gallery">
                 <a href="{{ asset('images/307187165ed45f5bbf2898c4f8f710a3.jpg') }}" class="img-gal"><img class="img-fluid" src="{{ asset('images/307187165ed45f5bbf2898c4f8f710a3.jpg') }}" alt=""></a>
@@ -23,7 +23,7 @@
         </div>
         <div class="row">
             <div class="col-lg-4 single-gallery">
-                <a href="{{ asset('images/fb23c67e87d2a61b6f31f86d3c6a3193.jpg') }}" class="img-gal"><img class="img-fluid" src="{{ asset('images/fb23c67e87d2a61b6f31f86d3c6a3193.jpg') }}" alt=""></a>
+                <a href="{{ asset('images/rt4.jpg') }}" class="img-gal"><img class="img-fluid" src="{{ asset('images/rt4.jpg') }}" alt=""></a>
                 <a href="{{ asset('images/image937.jpg') }}" class="img-gal"><img class="img-fluid" src="{{ asset('images/image937.jpg') }}" alt=""></a>
             </div>
             <div class="col-lg-4 single-gallery">

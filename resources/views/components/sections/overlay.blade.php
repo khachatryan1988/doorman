@@ -7,10 +7,10 @@
                     <div class="row fullscreen d-flex align-items-center justify-content-between">
                         <div class="banner-content col-lg-6 col-md-6">
                             <h6 class="text-white">{{__('messages.Հարցերի դեպքում զանգահարեք')}}</h6>
-                            <h1 class="text-uppercase">
-                                911 999 911
+                            <h1 class="text-uppercase" style="margin-bottom: 15px;">
+                                +(374) 33-22-22-50
                             </h1>
-                            <a href="/contactUs" class="primary-btn text-uppercase">{{__('messages.Կապ մեզ հետ')}}</a>
+                            <a href="/contactUs" class="primary-btn text-uppercase">{{__('messages.Գրեք Մեզ')}}</a>
                         </div>
                     </div>
                 </div>
@@ -21,10 +21,10 @@
                     <div class="row fullscreen d-flex align-items-center justify-content-between">
                         <div class="banner-content col-lg-6 col-md-6">
                             <h6 class="text-white">{{__('messages.Հարցերի դեպքում զանգահարեք')}}</h6>
-                            <h1 class="text-uppercase">
-                                911 999 911
+                            <h1 class="text-uppercase" style="margin-bottom: 15px;">
+                                +(374) 33-22-22-50
                             </h1>
-                            <a href="/contactUs" class="primary-btn text-uppercase">{{__('messages.Կապ մեզ հետ')}}</a>
+                            <a href="/contactUs" class="primary-btn text-uppercase">{{__('messages.Գրեք Մեզ')}}</a>
                         </div>
                     </div>
                 </div>
@@ -35,10 +35,10 @@
                     <div class="row fullscreen d-flex align-items-center justify-content-between">
                         <div class="banner-content col-lg-6 col-md-6">
                             <h6 class="text-white">{{__('messages.Հարցերի դեպքում զանգահարեք')}}</h6>
-                            <h1 class="text-uppercase">
-                                911 999 911
+                            <h1 class="text-uppercase" style="margin-bottom: 15px;">
+                                +(374) 33-22-22-50
                             </h1>
-                            <a href="/contactUs" class="primary-btn text-uppercase">{{__('messages.Կապ մեզ հետ')}}</a>
+                            <a href="/contactUs" class="primary-btn text-uppercase">{{__('messages.Գրեք Մեզ')}}</a>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
 
 
     .swiper-slide:nth-child(3n+1) {
-        background-image: url('{{ asset("images/daspas.jpg") }}');
+        background-image: url('{{ asset("images/door-1.jpg") }}');
     }
 
     .swiper-slide:nth-child(3n+2) {
@@ -65,7 +65,7 @@
     }
 
     .swiper-slide:nth-child(3n+3) {
-        background-image: url('{{ asset("images/daspas-2.jpeg") }}');
+        background-image: url('{{ asset("images/e0e3acc7-f2d5-445b-8077-77ce62151d2f.jpg") }}');
     }
 </style>
 

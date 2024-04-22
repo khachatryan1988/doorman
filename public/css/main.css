@@ -226,7 +226,7 @@ td, th {
 
 .pb-120 {
     padding-bottom: 80px;
-    padding-top: 115px;
+    /*padding-top: 115px;*/
 }
 
 .text-white {
@@ -1608,6 +1608,12 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu > li {
     margin-left: 10px;
 }
+.nav-menu a:hover {
+    color: #f9d700 !important;
+}
+.row h3:hover {
+    color: #f9d700 !important;
+}
 
 .nav-menu ul {
     margin: 12px 0 0 0;
@@ -1857,6 +1863,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-title h1 {
     margin-bottom: 10px;
+
+}
+@media (max-width: 767px) {
+    .section-title h1 {
+        margin-bottom: 10px;
+        font-size: 21px;
+    }
 }
 
 /*-------- Start Banner Area ------------*/
@@ -2101,12 +2114,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 10px;
     max-width: 550px;
     max-height: 550px;
-    border-radius: 15px;
+    /*border-radius: 15px;*/
     margin-right: 10px;
-    background-color: #0080003b;
-    /*background-color: #f9f9ff;*/
+    /*background-color: #0080003b;*/
+    background-color: #f9f9ff;
     text-align: center;
-    /*padding: 30px;*/
+    padding: 30px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -3355,6 +3368,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-footer-widget ul li a:hover {
     color: #f9d700;
 }
+.nav-menu-container h3 ul li a:hover {
+    color: #f9d700;
+}
+
+
 
 .single-footer-widget .info {
     position: absolute;

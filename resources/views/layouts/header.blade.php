@@ -12,7 +12,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Bootstrap JavaScript and jQuery -->
-{{--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>--}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
 
 
 {{--    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>--}}
@@ -43,16 +43,16 @@
                     <li><a href="{{ route('galery') }}">{{__('messages.Մեր Աշխատանքները')}}</a></li>
                     <li><a href="{{ route('contactUs') }}">{{__('messages.Կապ')}}</a></li>
                     <li>
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownLanguage" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                {{ strtoupper(app()->getLocale()) }}
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownLanguage">
-                                @foreach(config('localization.locales') as $locale)
-                                    <li><a class="dropdown-item" href="{{ route('localization', $locale) }}">{{ $locale }}</a></li>
-                                @endforeach
-                            </ul>
-                        </div>
+{{--                        <div class="dropdown">--}}
+{{--                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownLanguage" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
+{{--                                {{ strtoupper(app()->getLocale()) }}--}}
+{{--                            </button>--}}
+{{--                            <ul class="dropdown-menu" aria-labelledby="dropdownLanguage">--}}
+{{--                                @foreach(config('localization.locales') as $locale)--}}
+{{--                                    <li><a class="dropdown-item" href="{{ route('localization', $locale) }}">{{ $locale }}</a></li>--}}
+{{--                                @endforeach--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
                     </li>
                 </ul>
             </nav>
@@ -61,5 +61,6 @@
 </header>
 </body>
 </html>
+</div>
 
 

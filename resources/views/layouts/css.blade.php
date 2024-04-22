@@ -9,6 +9,6 @@
 <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
 <link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
 <link rel="stylesheet" href="{{ asset('css/main.css') }}">
-{{--<link rel="stylesheet" href="{{ asset('css/style.css') }}">--}}
+<link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}">
 <link rel="stylesheet" href="{{ asset('css/about.css') }}">
 

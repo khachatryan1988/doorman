@@ -45,9 +45,9 @@
 
         <div class="card">
             <div class="card-img">
-                <a href="{{ asset('images/daspas.jpg') }}" class="img-gal"><img class="img-fluid"
-                                                                                src="{{ asset('images/daspas.jpg') }}"
-                                                                                alt=""></a>
+                <a href="{{ asset('images/daspas-3.jpeg') }}" class="img-gal">
+                    <img class="img-fluid" src="{{ asset('images/daspas-3.jpeg') }}" alt="Daspas Image">
+                </a>
             </div>
             <div class="card-info">
             </div>
@@ -55,8 +55,8 @@
 
         <div class="card">
             <div class="card-img">
-                <a href="{{ asset('images/daspas-2.jpeg') }}" class="img-gal"><img class="img-fluid"
-                                                                                   src="{{ asset('images/daspas-2.jpeg') }}"
+                <a href="{{ asset('images/daspas-4.jpeg') }}" class="img-gal"><img class="img-fluid"
+                                                                                   src="{{ asset('images/daspas-4.jpeg') }}"
                                                                                    alt=""></a>
             </div>
             <div class="card-info">

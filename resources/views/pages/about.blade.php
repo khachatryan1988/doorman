@@ -114,7 +114,7 @@
 
         <div class="card">
             <div class="card-img">
-                <a href="{{ asset('images/rtf-1.jpg') }}" class="img-gal"><img class="img-fluid" src="{{ asset('images/rtf-1.jpg') }}" alt=""></a>
+                <a href="{{ asset('images/դեֆռե.jpg') }}" class="img-gal"><img class="img-fluid" src="{{ asset('images/դեֆռե.jpg') }}" alt=""></a>
             </div>
 {{--            <div class="card-info">--}}
 {{--                <h2 class="card-name">Joe</h2>--}}
